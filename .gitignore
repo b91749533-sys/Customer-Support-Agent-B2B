@@ -1,0 +1,44 @@
+# Secrets & Environment Files (CRITICAL: DO NOT PUSH)
+.env
+.env.*
+.env.example
+*.env
+*.pem
+*.key
+
+# Python Virtual Environments & Caches
+backend/venv/
+venv/
+ENV/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Databases & Local Upload Storage
+*.db
+*.sqlite
+*.sqlite3
+supportflow.db
+backend/supportflow.db
+backend/uploads/
+uploads/
+
+# Node.js & Next.js Builds
+frontend/node_modules/
+node_modules/
+frontend/.next/
+.next/
+out/
+build/
+dist/
+.npm
+*.log
+npm-debug.log*
+
+# IDEs & System Files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
